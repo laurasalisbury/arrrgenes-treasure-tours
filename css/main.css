@@ -56,6 +56,14 @@ body {
   text-decoration: none;
 }
 
+a:hover {
+  outline: 3px solid #fff;
+}
+
+a:focus {
+  outline: 3px solid #fff;
+}
+
 .banner {
   display: grid;
   grid-template-columns: 1fr;
@@ -63,6 +71,7 @@ body {
   grid-template-areas: "banner";
   color: #fff;
   font-size: 1.5rem;
+  background-color: black;
 }
 
 .banner img {
@@ -86,7 +95,7 @@ body {
 
 .banner a {
   display: inline-block;
-  background-color: transparent;
+  background-color: white;
   padding: .5em 1.5em .6em;
   border: .3rem solid #bea59b;
   border-radius: 1em;
